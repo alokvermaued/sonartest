@@ -1,0 +1,116 @@
+.table-padding{
+   padding: 30px; 
+}
+.table-padding h3{
+    background-color: red;
+    font-size: 38px;
+    box-shadow: 1px 1px 17px -2px grey;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 27px;
+    /* margin-right: -99px; */
+}
+
+.table-padding table th, .table-padding table td{
+    padding: 10px 3px;
+    min-width: 80px;
+    color: gray;
+
+}
+.table-padding table th{
+    color: rgb(7, 7, 7);
+    letter-spacing: 1px ;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.table-padding table td .btn{
+    min-width:100px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+} 
+.table-padding table {
+    box-shadow: 0px 2px 30px -5px grey;
+}
+.sb-sidenav .sb-sidenav-menu .nav .nav-link:hover {
+   
+    border-bottom: .5px solid #fff;
+}
+.sb-sidenav .sb-sidenav-menu .nav .nav-link {
+    margin: 0 11px;
+    
+} 
+.update-pro{
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    background: green;
+    padding: 5px;
+    margin-bottom: 28px;
+}
+.product-contant-update{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-contant-update .img-img-update{
+   padding-right:30px ;
+    flex-basis: 50%;
+text-align: right;
+}
+.product-contant-update .update-product{
+    flex-basis: 50%;
+    padding-left: 30px;
+    text-align: left;
+}
+.product-contant-update .update-product input ,.product-contant-update .update-product textarea{
+    padding: 6px 10px;
+    margin-bottom: 18px;
+    width: 255px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    color: gray;
+}
+.product-contant-update .update-product input[type="file"]{
+    border: none;
+}
+.product-contant-update .update-product textarea{
+    width: 510px;
+}
+
+.logout-dropdown{
+    position: relative;
+   
+  }
+  .dropdown-logout-list{
+    position: absolute;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    background-color: #f1f1f1;
+    padding: 10px;
+    left: 10px;
+    bottom: -46px;
+    border-radius: 5px;
+  }
+  .dropdown-logout-list li{
+    text-align: center;
+  }
+  .dropdown-logout-list li a{
+    color: #000;
+ text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .dropdown-logout-list li a:hover{
+    color: red;
+  }
+  .logout-dropdown:hover .dropdown-logout-list{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+  }
+  
+  
